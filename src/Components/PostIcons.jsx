@@ -11,6 +11,7 @@ export default function NewComment(props){
 
     useEffect(()=>{
         setLikes(props.props.likes.length);
+        console.log(likes)
     },[props])
 
     const context = useAPIContext();
